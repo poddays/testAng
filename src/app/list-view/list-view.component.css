@@ -1,0 +1,31 @@
+.tabella{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 300px;
+}
+
+h3{
+    font-size: 13px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+}
+.longCard .cardContainer{
+    height: 140px;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+}
+.longCard img{ 
+    border-radius: 2pxs;
+}
+.longCard button{ 
+height: 30px;
+}
+.longCard .btn-container{ 
+display: flex;
+position: relative;
+left:500px;
+}

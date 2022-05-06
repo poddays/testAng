@@ -1,0 +1,19 @@
+<div class="main-container">
+
+    <div class="cardContainer" *ngFor="let user of users">
+        <img src="{{user.imageUrl}}" alt="">
+        <div class="datas">
+            <h3 class="name">{{user.name}}</h3>
+            <h3 class="surname">{{user.surname}}</h3>
+            <h3 class="mail">{{user.mail}}</h3>
+            <h3 class="orders"><a href="#">view orders</a></h3>
+        </div>
+        
+        <div class="btn-container">
+            <button class="edit">edit</button>
+            <button class="delete" (click)="removeElement(user)">delete</button>
+        </div>
+        
+        
+    </div>
+</div>

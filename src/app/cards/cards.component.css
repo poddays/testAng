@@ -1,0 +1,37 @@
+.main-container{
+  display: flex;
+   flex-direction: row;
+   gap: 20px;
+}
+.cardContainer{
+   height: 320px;
+   width: 180px;
+   border: 1px solid grey;
+   
+}
+img{
+    height: 100px;
+    width: 175px;
+}
+h3{
+    font-size: 12px;
+}
+.btn-container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 60px;
+}
+.edit{
+    background-color: rgb(37, 62, 225);
+}
+.delete{
+    background-color: rgb(223, 43, 19);
+}
+.datas{
+    margin: 20px 0 0 10px;
+}
+
+
+
+

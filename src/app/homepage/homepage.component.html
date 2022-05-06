@@ -1,0 +1,12 @@
+<div class="container">
+<nav>
+    <h1>Users</h1>
+    <a href="#"><h3 (click)="showCard()">Card View</h3></a>
+    <a href="#"><h3 (click)="showListView()">List View</h3></a>
+    <a href="#"><h3>New User</h3></a>
+</nav>
+
+    <app-cards *ngIf="cardView"></app-cards>
+    <app-list-view *ngIf="listView" ></app-list-view>
+    <app-orders *ngIf="ordersView"></app-orders>
+</div>

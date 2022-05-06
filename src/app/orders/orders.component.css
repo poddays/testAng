@@ -1,0 +1,8 @@
+.orders-container{
+    height: 300px;
+    width: 340px;
+    position: absolute;
+    top: 60px;
+    border-radius: 2px;
+    border: 2px solid grey;
+}

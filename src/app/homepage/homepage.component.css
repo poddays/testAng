@@ -1,0 +1,8 @@
+nav{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+h3{
+    font-size: 12px;
+}
